@@ -33,9 +33,23 @@ body {
 ul {
   list-style-type: none;
  
-
 }
 .cb-headfour
 {
   margin-left: 2%;
+}
+.cb-body-flex-container
+{
+  display: flex;
+}
+.cb-index-aside
+{
+  margin-top: 1%;
+  background:  #dbd3d3;  
+  width: 15%;
+}
+.cb-bodycontent
+{
+  margin-top: 1%;
+  margin-left: 1%;
 }
