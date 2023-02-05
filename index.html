@@ -11,64 +11,66 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
-            
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
         </style>
     </head>
     <body>
-       
-        <header>
-            <div class="header-flex-container">
-            <div class="cb-logo">
-            <a href="index.html"><img src="images/Coffe Luv Bug Logo.png" alt="Glass Expression Logo" class="cb-logo-img"></a>
-            </div>
-            <div class="cb-heading1">
-                <h1> Coffee Luv Bug Design System</h1>
-            </div>
-            </div>
-        </header>
         <main>
             <div class="cb-body-flex-container">
-            <div class="cb-index-aside">
-                <aside class="cb-aside">
-                    <h4 class="cb-headfour">Getting started</h4> 
-             
-                    <ul class="cb-list">
-                        <li><b><a href="index.html">Introduction</a></b></li>
-                    </ul>
-                    <h4 class="cb-headfour">Style Elements</h4> 
-                    <ul class="cb-list">
+            <div class="cb-index-nav">
+                <input type="text" id="cb-Search" onkeyup="Search()" placeholder="Search.." title="Type in a category">
+                <ul id="nav-menus">
+                    <li><b><a href="index.html">Introduction</a></b></li>
+                    <li><b><a href="index.html">Style elements </a></b></li>
+                    <ul id="nav-submenu">
                         <li><b><a href="index.html">Typography </a></b></li>
                         <li><b><a href="index.html">Colours</a></b></li>
                         <li><b><a href="index.html">Spacing</a></b></li>
-                        <li><b><a href="index.html">Media Queries</a></b></li>
-                    </ul>
-                    <h4 class="cb-headfour">Navigation</h4> 
-                    <ul class="cb-list">
-                        <li><b><a href="index.html">Navbar</a></b></li>
+                        <li><b><a href="index.html">Images</a></b></li>
+                    </ul>    
+                    <li><b><a href="index.html">Navigation</a></b></li> 
+                    <ul id="nav-submenu">  
+                        
+                        <li><b><a href="index.html">Navbar menus</a></b></li>
+                        <li><b><a href="index.html">Sub menus</a></b></li>
                         <li><b><a href="index.html">Buttons</a></b></li>
+                        <li><b><a href="index.html">Breadcrumbs</a></b></li>
                     </ul>
-                    <h4 class="cb-headfour">Form</h4> 
-                    <ul class="cb-list">
+                    <li><b><a href="index.html">Form</a></b></li> 
+                    <ul id="nav-submenu">  
                         <li><b><a href="index.html">Textarea</a></b></li>
                         <li><b><a href="index.html">Buttons</a></b></li>
                         <li><b><a href="index.html">Label</a></b></li>
                         <li><b><a href="index.html">Checkbox</a></b></li>
                         <li><b><a href="index.html">Dropdown</a></b></li>
-                    </ul>
-                    <h4 class="cb-headfour">Components</h4> 
-                    <ul class="cb-list">
+                    </ul> 
+                    <li><b><a href="index.html">List Group</a></b></li> 
+                    <ul id="nav-submenu">  
+                        <li><b><a href="index.html">Ordered and unordered lists</a></b></li>
+                    </ul> 
+                    <li><b><a href="index.html">Components</a></b></li> 
+                    <ul id="nav-submenu"> 
                         <li><b><a href="index.html">Banner</a></b></li>
                         <li><b><a href="index.html">Icons</a></b></li>
                         <li><b><a href="index.html">Image Grid</a></b></li>
                         <li><b><a href="index.html">Iframe</a></b></li>
                         <li><b><a href="index.html">Carousel</a></b></li>
-                    </ul>
-                    
-                </aside>
+                    </ul> 
+                </ul>
             </div>
-                <div class="cb-bodycontent">
+            <div class="cb-index-content">
+                <header>
+                    <div class="header-flex-container">
+                    <div class="cb-logo">
+                    <a href="index.html"><img src="images/Coffe Luv Bug Logo.png" alt="Glass Expression Logo" class="cb-logo-img"></a>
+                    </div>
+                    <div class="cb-heading1">
+                        <h1> Coffee Luv Bug Design System</h1>
+                    </div>
+                    </div>
+                </header>
                 <h2>About Design System</h2>
-                </div>
+            </div>
                 
             </div>
         </main>
@@ -76,6 +78,6 @@
         <footer>
                 <p>@Copyright-2023</p>
         </footer>
-            
+        <script src="design-system.js"></script>   
     </body>
 </html>

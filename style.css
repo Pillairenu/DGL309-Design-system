@@ -1,10 +1,7 @@
 html {
     font-size: 62.5%; /* Set the root font size on all pages to 62.5% */
   }
-   header{
-    background-color: #dbd3d3;  
-
-  } 
+   
 .header-flex-container
 {
  
@@ -15,6 +12,7 @@ html {
 body {
     background: #fff;
     font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .cb-logo-img
@@ -25,31 +23,49 @@ body {
 }
 .cb-heading1
 {
-    color:#973d17;
+    color:#dbd3d3; 
     font-size: 2rem;
     padding-left: 2.5rem;
 }
 
-ul {
-  list-style-type: none;
- 
-}
-.cb-headfour
-{
-  margin-left: 2%;
-}
 .cb-body-flex-container
 {
   display: flex;
+  
 }
-.cb-index-aside
+.cb-index-nav
 {
-  margin-top: 1%;
-  background:  #dbd3d3;  
-  width: 15%;
+  flex: 22%;
+  background-color: #202020;
+  
 }
-.cb-bodycontent
+.cb-index-content
 {
-  margin-top: 1%;
-  margin-left: 1%;
+  flex: 78%;
+}
+
+.cb-index-nav li
+{
+  padding: 2%;
+  margin: 2%;
+}
+.cb-index-nav li a
+{
+  color: #fff;
+  text-decoration: none; 
+  
+}
+.cb-index-nav ul
+ {
+  list-style-type: none;
+  margin: 5%;
+  padding: 2%;
+}
+
+#cb-Search
+{
+  width: 80%;
+  height: 3%;
+  margin: 7%;
+
 }
