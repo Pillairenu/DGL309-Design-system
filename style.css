@@ -2,12 +2,6 @@ html {
     font-size: 62.5%; /* Set the root font size on all pages to 62.5% */
   }
    
-.header-flex-container
-{
- 
-  display: flex;
-         
-}
 
 body {
     background: #fff;
@@ -15,18 +9,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.cb-logo-img
-{
-    width: 30%;
-    padding-left: 65%;
-    
-}
-.cb-heading1
-{
-    color:#dbd3d3; 
-    font-size: 2rem;
-    padding-left: 2.5rem;
-}
 
 .cb-body-flex-container
 {
@@ -42,6 +24,7 @@ body {
 .cb-index-content
 {
   flex: 80%;
+  padding: 3%;
 }
 
 .cb-index-nav li
@@ -71,4 +54,21 @@ body {
   height: 3%;
   margin-top: 5%;
   margin-left: 4%;
+}
+.header-flex-container
+{
+ 
+  display: grid;
+  grid-template-columns: 50% 50%;   
+  align-items: center;  
+}
+.cb-logo-img
+{    
+    width: 35%;      
+}
+.cb-heading1
+{    
+    color:#202020;
+    font-size: 1.5rem;      
+    
 }
