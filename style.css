@@ -7,6 +7,7 @@ body {
     background: #fff;
     font-size: 1.6rem;
     font-family: 'Open Sans', sans-serif;
+    color: rgba(0,0,0,.87);
 }
 
 
@@ -59,16 +60,23 @@ body {
 {
  
   display: grid;
-  grid-template-columns: 50% 50%;   
+  grid-template-columns: 20% 80%;   
   align-items: center;  
+  
 }
 .cb-logo-img
 {    
-    width: 35%;      
+  width: 35%;
+  margin-left: 55%;
 }
 .cb-heading1
 {    
-    color:#202020;
+    /* color:#202020; */
+    color: rgba(0,0,0,.58)!important;
     font-size: 1.5rem;      
     
+}
+.cb-body-content
+{
+  margin-top: 5%;
 }
