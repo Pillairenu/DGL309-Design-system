@@ -35,33 +35,36 @@ body {
 }
 .cb-index-nav
 {
-  flex: 22%;
+  flex: 20%;
   background-color: #202020;
   
 }
 .cb-index-content
 {
-  flex: 78%;
+  flex: 80%;
 }
 
 .cb-index-nav li
 {
-  padding: 2%;
-  margin: 2%;
+  padding: 3%;
+ 
 }
 .cb-index-nav li a
 {
   color: #fff;
   text-decoration: none; 
-  
+ 
 }
 .cb-index-nav ul
  {
   list-style-type: none;
-  margin: 5%;
-  padding: 2%;
+  padding: 10%;
+  
 }
-
+.cb-index-nav li a:hover {
+  background-color: #eee;
+  color: black;
+}
 #cb-Search
 {
   width: 80%;
