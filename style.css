@@ -80,3 +80,13 @@ body {
 {
   margin-top: 5%;
 }
+
+
+/*--------- Typography Page ----------*/
+
+.typo-img-responsive
+{
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+}
