@@ -25,7 +25,7 @@ body {
 .cb-index-content
 {
   flex: 80%;
-  padding: 3%;
+  /* padding: 3%; */
 }
 
 .cb-index-nav li
@@ -78,7 +78,9 @@ body {
 }
 .cb-body-content
 {
-  margin-top: 5%;
+  margin-top: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 
@@ -86,7 +88,34 @@ body {
 
 .typo-img-responsive
 {
-  margin-top: 5%;
+  margin-top: 1%;
+  margin-left: 2%;
   width: 100%;
   height: auto;
+  
+}
+.typofont-container
+{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;   
+  align-items: center;  
+}
+.typo-hr
+{
+  background-color: #f7f6f6;
+  width: 71%;
+  margin-left: 0%;
+}
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 1%;
+}
+.code
+{
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+ 
 }
