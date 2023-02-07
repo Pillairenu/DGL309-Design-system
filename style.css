@@ -300,3 +300,27 @@ font-weight: bold;
   grid-template-columns: 50% 50%;
   gap: 2%;
 }
+/*------Navigation-----------*/
+
+.topnav {
+  background-color:#7a8f99;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color:#e3d2b0;
+  color: black;
+}
+.nav-paragragraph
+{
+  margin-top: 3%;
+}
+
