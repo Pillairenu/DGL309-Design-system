@@ -282,3 +282,12 @@ font-weight: bold;
   text-align: center;
   font-weight: bold;
 }
+.space
+{
+  width:80%;
+  border: solid;
+  background-color: #eee;
+  border-color:rgb(203, 200, 200);
+  font-weight: bold;
+  padding:2%;
+}
