@@ -119,3 +119,41 @@ pre code {
   display: block;
  
 }
+
+.roboto-text-h1
+{
+  font-family: 'Roboto Slab', serif;
+  font-size: 6rem;
+  font-weight: bold;
+}
+.roboto-text-h2
+{
+  font-family: 'Roboto Slab', serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.roboto-text-h3
+{
+  font-family: 'Roboto Slab', serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.merriweather-para-bold
+{
+font-family: 'Merriweather', serif;
+font-size: 1.8rem;
+font-weight: bold;
+}
+.merriweather-para-regular
+{
+  font-family: 'Merriweather', serif;
+  font-size: 1.8rem;
+}
+.font-type1
+{
+  margin-top:2%;
+}
+.font-type2
+{
+  margin-top:4%;
+}
