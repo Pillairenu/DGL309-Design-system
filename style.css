@@ -157,3 +157,69 @@ font-weight: bold;
 {
   margin-top:4%;
 }
+/*------------Colors Page-----------------------*/
+.color-container1
+{
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.color-1 {
+  height: 100px;
+  width: 100px;
+  background-color: #dc4348;
+  border: solid;
+  border-color:rgb(203, 200, 200);
+}
+.color-2
+{
+  height: 100px;
+  width: 100px;
+  background-color: #ffffff;
+  border: solid;
+  border-color:rgb(203, 200, 200);
+}
+.color-3
+{
+  height: 100px;
+  width: 100px;
+  background-color: #000000;
+  border: solid;
+  border-color:rgb(203, 200, 200);
+}
+.color-4
+{
+  height: 100px;
+  width: 100px;
+  background-color:#7a8f99;
+  border: solid;
+  border-color:rgb(203, 200, 200);
+}
+.color-container2
+{
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.color-5
+{
+  height: 100px;
+  width: 100px;
+  background-color:#e3d2b0;
+  border: solid;
+  border-color:rgb(203, 200, 200);
+}
+.color-6
+{
+  height: 100px;
+  width: 100px;
+  background-color:#6F4E37;
+  border: solid;
+  border-color:rgb(203, 200, 200);
+}
+.color-7
+{
+  height: 100px;
+  width: 100px;
+  background-color:#FF3131;
+  border: solid;
+  border-color:rgb(203, 200, 200);
+}
