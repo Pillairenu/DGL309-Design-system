@@ -13,13 +13,15 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+           
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
         </style>
     </head>
     <body>
         <main>
             <div class="cb-body-flex-container">
-            <nav class="cb-index-nav">
+            <div class="cb-index-nav">
                 <input type="text" id="cb-Search" onkeyup="Search()" placeholder="Search.." title="Type in a category">
                 <ul id="nav-menus">
                     <li><b><a href="index.html">Introduction</a></b></li>
@@ -28,13 +30,13 @@
                         <li><b><a href="typography.html">Typography </a></b></li>
                         <li><b><a href="colors.html">Colours</a></b></li>
                         <li><b><a href="space.html">Spacing</a></b></li>
-                        <li><b><a href="image.html">Images</a></b></li>
+                        <li><b><a href="index.html">Images</a></b></li>
                     </ul>    
                     <li><b><a href="index.html">Navigation</a></b></li> 
                     <ul id="nav-submenu">  
                         
-                        <li><b><a href="navmenus.html">Navbar Menus</a></b></li>
-                        <li><b><a href="hamburgermenu.html">Hamburger Menus</a></b></li>
+                        <li><b><a href="index.html">Navbar Menus</a></b></li>
+                        <li><b><a href="index.html">Sub Menus</a></b></li>
                         <li><b><a href="index.html">Buttons</a></b></li>
                         <li><b><a href="index.html">Breadcrumbs</a></b></li>
                     </ul>
@@ -59,7 +61,7 @@
                         <li><b><a href="index.html">Carousel</a></b></li>
                     </ul> 
                 </ul>
-            </nav>
+            </div>
             <div class="cb-index-content">
                 
                     <div class="header-flex-container">
@@ -70,49 +72,71 @@
                             <h1> Coffee Luv Bug Design System</h1>
                         </div>
                         
-                        
                     </div>
-                    <div class="cb-body-content">
-                        <h2>Getting Started!</h2>
-                        <p>Welcome to the coffee luv bug design system.This design system holds the standard guidelines 
-                        for the brand coffe luv bug.</p>
                     
-                    <div class="cb-index-subsection">
-                    
-                    <h3><a href="styleelementpage.html">Style Elements</a></h3>
-                   
-                    <p>Explore each of the style elements used to build our app, along with the design principles 
-                            we use to construct them.</p>
-                    </div>
-                    <div>
-                    <h3><a href="index.html">Navigation</a></h3>
-                   
-                    <p>Explore each of the navigation elements used to build our app, along with the design principles 
-                                we use to construct them.</p>     
+                    <div class="cb-body-content"> 
+                        <h2>Hamburger Menu</h2> 
+                        <p>The hamburger menu is used to display the primary navigation in the header of our mobile application.
+                            It is used to move between pages in the application.</p>
+                        <p class="nav-paragragraph">Here is the example of our app's hamburger menu,</p>
+                        
+                        <div class="mobile-container">
+                            <div class="hambeurgernav">
+                              <a href="#home" class="active">Logo</a>
+                              <div id="myLinks">
+                                <a href="#Link">Link</a>
+                                <a href="#Link">Link</a>
+                                <a href="#Link">Link</a>
+                              </div>
+                              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                              </a>
+                            </div>
+                         </div>  
+
+
+
+                        
+                        <p class="nav-paragragraph">Here is the html and js code of our app's top nav bar,</p>
+                        <div class="ham-code-grid">
+                            <div class="item-1">
+                             <pre>
+                                <code>
+    &lt;div class="mobile-container"&gt;                                
+    &lt;div class="hambeurgernav"&gt;
+    &lt;a href="#home" class="active"&gt;&lt;Logo&gt;&lt;/a&gt;
+    &lt;div id="myLinks"&gt;
+    &lt;a href="#Link"&gt;Link&lt;/a&gt;
+    &lt;a href="#Link"&gt;Link&lt;/a&gt;
+    &lt;a href="#Link"&gt;Link&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;a href="javascript:void(0); class="icon" onclick="myFunction()"&gt;
+    &lt;i class="fa fa-bars"&gt; &lt;/i&gt;
+    &lt;/a&gt; 
+    &lt;/div&gt;
+    &lt;/div&gt;     
+                                </code>
+                            </pre>
+                            </div>
+                            <div class="item-2">
+                <pre>
+                <code>
+    function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+    }
+    
+                </code>
+                </pre>
+                        </div>
+                          </div>
                         
                     </div>
-                    <div>
-                    <h3><a href="index.html">Form</a></h3>
-                   
-                    <p>Explore each of the form elements used to build our app, along with the design principles 
-                                we use to construct them.</p>     
-                        
-                    </div>
-                    <div>
-                    <h3><a href="index.html">List Group</a></h3>
-                   
-                    <p>Explore each of the list groups used to build our app, along with the design principles 
-                                we use to construct them.</p>     
-                        
-                    </div>
-                    <div>
-                        <h3><a href="index.html">Components</a></h3>
-                       
-                        <p>Explore each of the many components used to build our app, along with the design principles 
-                                    we use to construct them.</p>     
-                            
-                    </div>
-                </div>
+                  
             </div>
                 
             </div>
