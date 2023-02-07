@@ -369,3 +369,25 @@ font-weight: bold;
   grid-template-columns: 60% 40%;
   gap: 2%;
 }
+/*------Button Nav-----------*/
+.button-container button {
+  background-color:  rgb(240, 93, 91);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  
+  }
+  .button-container button:hover {
+  background-color: #6F4E37;
+  
+  }
+  .buttonnav-code-grid
+{
+  display:grid;
+  grid-template-columns: 60% 40%;
+  gap: 2%;
+}
