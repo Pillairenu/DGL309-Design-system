@@ -62,6 +62,7 @@ body {
   display: grid;
   grid-template-columns: 20% 80%;   
   align-items: center;  
+  margin-top:3%;
   
 }
 .cb-logo-img
@@ -90,7 +91,7 @@ body {
 .typo-img-responsive
 {
   margin-top: 1%;
-  margin-left: 2%;
+  margin-left: .5%;
   width: 100%;
   height: auto;
   
