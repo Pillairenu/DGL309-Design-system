@@ -498,12 +498,17 @@ input[type=submit] {
   display:grid;
   grid-template-columns: 100%;
 }
-
+/*----------------------------Media Query- 320px--------------------------*/
 
 @media screen and (min-width: 320px) {
+  .cb-body-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+ 
 .cb-index-nav {
   overflow: hidden;
-  background-color: #333;
+  
   position: relative;
 }
 
@@ -520,11 +525,11 @@ input[type=submit] {
 }
 
 .cb-index-nav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 12px;
-  top: 45px;
+     /* background: black; */
+     display: block;
+     position: absolute;
+     right: 12px;
+     top: 16px;
 }
 
 .cb-index-nav a:hover {
@@ -535,20 +540,28 @@ input[type=submit] {
   
   display: none;
 }
-.cb-index-nav
-{
-  flex: 20%;
-  background-color: white;
-  
-}
+
 .cb-index-nav li a
 {
-  color:black;
+  color: white;
   text-decoration: none; 
  
 }
+#cb-Search
+{
+  width: 70%;
+  height: 3%;
+  margin-top: 5%;
+  margin-left: 4%;
 }
+
+}
+/*---------------------------Media Query-1200px---------------------------*/
 @media screen and (min-width: 1200px) {
+  .cb-body-flex-container {
+    display: flex;
+    flex-direction: row;
+}
   .cb-index-nav a.icon {
     
     display: none;
@@ -569,6 +582,13 @@ input[type=submit] {
   color: #fff;
   text-decoration: none; 
  
+}
+#cb-Search
+{
+  width: 90%;
+  height: 3%;
+  margin-top: 5%;
+  margin-left: 4%;
 }
 
 }
