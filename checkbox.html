@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Design System - Coffe Luv Bug</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="images/Coffee Luvlogo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+           
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="cb-body-flex-container">
+            <div class="cb-index-nav">
+                <input type="text" id="cb-Search" onkeyup="Search()" placeholder="Search.." title="Type in a category">
+                <ul id="nav-menus">
+                    <li><b><a href="index.html">Introduction</a></b></li>
+                    <li><b><a href="styleelementpage.html">Style elements </a></b></li>
+                    <ul id="nav-submenu">
+                        <li><b><a href="typography.html">Typography </a></b></li>
+                        <li><b><a href="colors.html">Colours</a></b></li>
+                        <li><b><a href="space.html">Spacing</a></b></li>
+                        <li><b><a href="image.html">Images</a></b></li>
+                    </ul>    
+                    <li><b><a href="index.html">Navigation</a></b></li> 
+                    <ul id="nav-submenu">  
+                        
+                        <li><b><a href="navmenus.html">Navbar Menus</a></b></li>
+                        <li><b><a href="hamburgermenu.html">Hamburger Menus</a></b></li>
+                        <li><b><a href="buttonnav.html">Button Navigations</a></b></li>
+                    </ul>
+                    <li><b><a href="index.html">Form</a></b></li> 
+                    <ul id="nav-submenu">  
+                        <li><b><a href="index.html">Textarea</a></b></li>
+                        <li><b><a href="index.html">Buttons</a></b></li>
+                        <li><b><a href="index.html">Label</a></b></li>
+                        <li><b><a href="index.html">Checkbox</a></b></li>
+                        <li><b><a href="index.html">Dropdown</a></b></li>
+                    </ul> 
+                    <li><b><a href="index.html">List Group</a></b></li> 
+                    <ul id="nav-submenu">  
+                        <li><b><a href="index.html">Unordered Lists</a></b></li>
+                    </ul> 
+                    <li><b><a href="index.html">Components</a></b></li> 
+                    <ul id="nav-submenu"> 
+                        <li><b><a href="index.html">Banner</a></b></li>
+                        <li><b><a href="index.html">Icons</a></b></li>
+                        <li><b><a href="index.html">Image Grid</a></b></li>
+                        <li><b><a href="index.html">Iframe</a></b></li>
+                        <li><b><a href="index.html">Carousel</a></b></li>
+                    </ul> 
+                </ul>
+            </div>
+            <div class="cb-index-content">
+                
+                    <div class="header-flex-container">
+                        <div class="cb-logo">
+                            <a href="index.html"><img src="images/Coffee Luvlogo.png" alt="Logo" class="cb-logo-img"></a>
+                        </div>
+                        <div class="cb-heading1">
+                            <h1> Coffee Luv Bug Design System</h1>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="cb-body-content"> 
+                        <h2>Input Type - Checkbox</h2> 
+                        <p class="nav-paragragraph">Here is the example of input type checkbox used in our applications form, </p>
+                        <p>Input type checkbox defines a checkbox that let a user select zero or more options of a limited number of choices.</p>
+                        <div class="form-container">
+                            <form>
+                                <input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1">
+                                <label for="vehicle1"> Example1</label><br>
+                                <input type="checkbox" id="checkbox2" name="checkbox2" value="checkbox2">
+                                <label for="vehicle2"> Example2</label><br>
+                                <input type="checkbox" id="checkbox3" name="checkbox3" value="checkbox3">
+                                <label for="vehicle3"> Example3</label>
+                            </form>
+                          </div>
+                          <p class="nav-paragragraph">Here is the html code of our app's form input type checkbox,</p>
+                          <div class="number-code-grid">
+                            <div class="item-1">
+                             <pre>
+                                <code>
+        
+        &lt;form&gt;
+        &lt;input type="checkbox"  name="checkbox1" value="checkbox1"&gt;
+        &lt;label for="checkbox"&gt;Example1:&lt;/label&gt;
+        &lt;input type="checkbox"  name="checkbox2" value="checkbox2"&gt;
+        &lt;label for="checkbox"&gt;Example2:&lt;/label&gt;
+        &lt;input type="checkbox"  name="checkbox3" value="checkbox3"&gt;
+        &lt;label for="checkbox"&gt;Example3:&lt;/label&gt;    
+        &lt;/form&gt;
+           
+                                </code>
+                            </pre>
+                            </div>
+             
+                          </div>
+                        
+                    </div>
+                  
+            </div>
+                
+            </div>
+                
+        
+        </main>
+        <hr>
+        <footer>
+                <p>@Copyright-2023</p>
+        </footer>
+        <script src="design-system.js"></script>   
+    </body>
+</html>
