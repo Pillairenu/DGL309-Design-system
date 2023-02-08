@@ -107,14 +107,13 @@ pre code {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
-  padding: 1%;
+ 
 }
 .code
 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
- 
 }
 
 .roboto-text-h1
@@ -568,6 +567,7 @@ input[type=submit] {
   grid-template-columns: 100%;
   gap: 2%;
 }
+
 }
 
 /*-----------------------------Media Query-600px---------------------------*/
@@ -643,6 +643,12 @@ input[type=submit] {
   grid-template-columns: 100%;
   gap: 2%;
 }
+.ham-code-grid
+{
+  display:grid;
+  grid-template-columns: 100%;
+  gap: 2%;
+}
 
 }
 
@@ -695,6 +701,12 @@ input[type=submit] {
   grid-template-columns: 33% 33% 33%;
 }
 .image-code-grid
+{
+  display:grid;
+  grid-template-columns: 100%;
+  gap: 2%;
+}
+.ham-code-grid
 {
   display:grid;
   grid-template-columns: 100%;
@@ -755,6 +767,12 @@ input[type=submit] {
   grid-template-columns: 70% 30%;
   gap: 2%;
 }
+.ham-code-grid
+{
+  display:grid;
+  grid-template-columns: 60% 40%;
+  gap: 2%;
+}
 }
 
 
@@ -813,6 +831,12 @@ input[type=submit] {
 {
   display:grid;
   grid-template-columns: 70% 30%;
+  gap: 2%;
+}
+.ham-code-grid
+{
+  display:grid;
+  grid-template-columns: 60% 40%;
   gap: 2%;
 }
 }
