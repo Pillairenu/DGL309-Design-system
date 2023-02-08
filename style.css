@@ -476,8 +476,8 @@ input[type=submit] {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 20em;
-  height: 50%;
-  width:50%
+  
+  width:70%
   
 }
 
@@ -485,7 +485,7 @@ input[type=submit] {
 
   position: absolute;
   top: 70%;
-  left: 40%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: white;
 }
