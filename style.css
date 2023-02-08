@@ -553,8 +553,13 @@ input[type=submit] {
 .typofont-container
 {
   display: grid;
-  grid-template-columns: 25%;  
+  grid-template-columns: 50%;  
   align-items: center;  
+}
+.color-container1
+{
+  display:grid;
+  grid-template-columns: 50% 50%;
 }
 
 }
@@ -619,8 +624,13 @@ input[type=submit] {
 .typofont-container
 {
   display: grid;
-  grid-template-columns: 25% 25%;   
+  grid-template-columns: 50% 50%;   
   align-items: center;  
+}
+.color-container1
+{
+  display:grid;
+  grid-template-columns: 50% 50%;
 }
 
 }
@@ -665,8 +675,13 @@ input[type=submit] {
 .typofont-container
 {
   display: grid;
-  grid-template-columns: 25% 25%;   
+  grid-template-columns: 50% 50%;
   align-items: center;  
+}
+.color-container1
+{
+  display:grid;
+  grid-template-columns: 33% 33% 33%;
 }
 
 }
@@ -713,7 +728,11 @@ input[type=submit] {
   grid-template-columns: 25% 25% 25% 25%;   
   align-items: center;  
 }
-
+.color-container1
+{
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
 }
 
 
@@ -763,5 +782,9 @@ input[type=submit] {
   grid-template-columns: 25% 25% 25% 25%;   
   align-items: center;  
 }
-
+.color-container1
+{
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
 }
