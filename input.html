@@ -74,32 +74,47 @@
                     </div>
                     
                     <div class="cb-body-content"> 
-                        <h2>Form Container</h2> 
-                        <p>Explore the examples and usage guidelines for form control styles, layout options, and custom components
-                             for creating forms in our application.</p>
-                        <p class="nav-paragragraph">Here is an example of form in our app,</p>
+                        <h2>Input Type Text</h2> 
+                        <p class="nav-paragragraph">Here is the example of input type text used in our applications form, </p>
+                        <p>It  defines a single-line text input field:</p>
                         <div class="form-container">
-                            <form>
-                              
-                              <input type="text" id="fname" name="firstname" placeholder="text">
-                              <input type="email" id="email" name="email"placeholder="email">
-                              <select id="payment" name="payment">
-                                <option value="debit">dropdown</option>
-                                <option value="credit">item2</option>
-                                <option value="cash">item3</option>
-                              </select>
-                              <textarea id="request" name="request" placeholder="textarea" style="height:200px"></textarea>
-                              
-                              <label for="quantity">Quantity (between 1 and 5):</label>
-                              <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
-                              <br>
-                              <input type="date" id="date" name="date"><br>
-                              <br>
-                              <input type="checkbox" id="example" name="example" value="checkbox">
-                              <label for="example"> Checkbox</label><br>
-                              <br>
-                              <input type="submit" value="submit">
+                            <form>  
+                              <label for="fname">Text1:</label><br>
+                              <input type="text" id="fname" name="firstname">
+                              <label for="fname">Text2:</label><br>
+                              <input type="text" id="fname" name="firstname">
                             </form>
+                          </div>
+                          <p class="nav-paragragraph">Here is the html and css code of our app's form input type text,</p>
+                          <div class="code-grid">
+                            <div class="item-1">
+                             <pre>
+                                <code>
+        
+        &lt;form&gt;
+        &lt;label for="fname"&gt;Text1:&lt;/label&gt;
+        &lt;input type="text" id="fname" name="firstname"&gt;
+        &lt;label for="fname"&gt;Text1:&lt;/label&gt;
+        &lt;input type="text" id="fname" name="firstname"&gt;
+        &lt;/form&gt;
+           
+                                </code>
+                            </pre>
+                            </div>
+                            <div class="item-2">
+                <pre>
+                <code>
+            input[type=text]
+            {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            }
+                      
+                </code>
+                </pre>
+                        </div>
                           </div>
                         
                     </div>
