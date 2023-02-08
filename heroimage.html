@@ -21,7 +21,7 @@
     <body>
         <main>
             <div class="cb-body-flex-container">
-            <div class="cb-index-nav">
+            <nav class="cb-index-nav">
                 <input type="text" id="cb-Search" onkeyup="Search()" placeholder="Search.." title="Type in a category">
                 <ul id="nav-menus">
                     <li><b><a href="index.html">Introduction</a></b></li>
@@ -32,35 +32,39 @@
                         <li><b><a href="space.html">Spacing</a></b></li>
                         <li><b><a href="image.html">Images</a></b></li>
                     </ul>    
-                    <li><b><a href="index.html">Navigation</a></b></li> 
+                    <li><b><a href="navigation.html">Navigation</a></b></li> 
                     <ul id="nav-submenu">  
                         
                         <li><b><a href="navmenus.html">Navbar Menus</a></b></li>
                         <li><b><a href="hamburgermenu.html">Hamburger Menus</a></b></li>
                         <li><b><a href="buttonnav.html">Button Navigations</a></b></li>
                     </ul>
-                    <li><b><a href="index.html">Form</a></b></li> 
-                    <ul id="nav-submenu">  
-                        <li><b><a href="index.html">Textarea</a></b></li>
-                        <li><b><a href="index.html">Buttons</a></b></li>
-                        <li><b><a href="index.html">Label</a></b></li>
-                        <li><b><a href="index.html">Checkbox</a></b></li>
-                        <li><b><a href="index.html">Dropdown</a></b></li>
-                    </ul> 
-                    <li><b><a href="index.html">List Group</a></b></li> 
-                    <ul id="nav-submenu">  
-                        <li><b><a href="index.html">Unordered Lists</a></b></li>
-                    </ul> 
-                    <li><b><a href="index.html">Components</a></b></li> 
+                    <li><b><a href="form.html">Form</a></b></li> 
                     <ul id="nav-submenu"> 
-                        <li><b><a href="index.html">Banner</a></b></li>
-                        <li><b><a href="index.html">Icons</a></b></li>
-                        <li><b><a href="index.html">Image Grid</a></b></li>
-                        <li><b><a href="index.html">Iframe</a></b></li>
-                        <li><b><a href="index.html">Carousel</a></b></li>
+                        <li><b><a href="input.html">Text</a></b></li> 
+                        <li><b><a href="email.html">Email</a></b></li>
+                        <li><b><a href="dropdown.html">Dropdown</a></b></li>
+                        <li><b><a href="textarea.html">Textarea</a></b></li>
+                        <li><b><a href="number.html">Number</a></b></li>
+                        <li><b><a href="date.html">Date</a></b></li>
+                        <li><b><a href="checkbox.html">Checkbox</a></b></li>
+                        <li><b><a href="submit.html">Submit</a></b></li>
+                        
+                    </ul> 
+                    <li><b><a href="listgroup.html">List Group</a></b></li> 
+                    <ul id="nav-submenu">  
+                        <li><b><a href="unorderedlist.html">Unordered Lists</a></b></li>
+                    </ul> 
+                    <li><b><a href="component.html">Components</a></b></li> 
+                    <ul id="nav-submenu"> 
+                        <li><b><a href="carousel.html">Carousel</a></b></li>
+                        <li><b><a href="logo.html">Logo</a></b></li>
+                        <li><b><a href="heroimage.html">Hero Image</a></b></li>
+                        <li><b><a href="video.html">Video</a></b></li>
+                        
                     </ul> 
                 </ul>
-            </div>
+            </nav>
             <div class="cb-index-content">
                 
                     <div class="header-flex-container">
@@ -74,50 +78,47 @@
                     </div>
                     
                     <div class="cb-body-content"> 
-                        <h2>Top Navaigation Bar</h2> 
-                        <p>The navigation menu is used to display the primary navigation in the header of our application.
-                            It is used to move between pages in the application.</p>
-                        <p class="nav-paragragraph">Here is the example of our app's nav menus,</p>
-                        <div class="topnav">
-                            <a class="active" href="#home">Navbar</a>
-                            <a href="#Link">Link</a>
-                            <a href="#Link">Link</a>
-                            <a href="#Link">Link</a>
-                        </div>
+                        <h2>Hero Image</h2> 
+                        <p>A Hero Image is a large image with text, often placed at the top of a webpage:</p>
+                        <p class="nav-paragragraph">Here is an hero image used in our application</p>
+                        <div class="hero-image">
+                            <div class="hero-text">
+                            <h1 style="font-size:50px">I am John Doe</h1>
+                            </div>
+                          </div>
                         <p class="nav-paragragraph">Here is the html and css code of our app's top nav bar,</p>
                         <div class="code-grid">
                             <div class="item-1">
                              <pre>
                                 <code>
-        &lt;div class="topnav"&gt;
-        &lt;a class="active" href="#Link"&gt;&lt;Navbar&gt;&lt;/a&gt;
-        &lt;a href="#Link"&gt;Link&lt;/a&gt;
-        &lt;a href="#Link"&gt;Link&lt;/a&gt;
-        &lt;a href="#Link"&gt;Link&lt;/a&gt;
-        &lt;/div&gt;      
+        &lt;div class="hero-image"&gt;
+        &lt;div class="hero-text"&gt;
+        &lt;h1 style="font-size:50px"&gt;Example&lt;/h1&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;        
                                 </code>
                             </pre>
                             </div>
                             <div class="item-2">
                 <pre>
                 <code>
-           .topnav {
-            background-color:#7a8f99;
-            overflow: hidden;
-            }
-            
-            .topnav a {
-            float: left;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-            }
-            .topnav a:hover {
-            background-color:#e3d2b0;
-            color: black;
-            }
+        .hero-image {
+        background-image:url("img1.png");
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        }
+        
+        .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        }
                       
                 </code>
                 </pre>
