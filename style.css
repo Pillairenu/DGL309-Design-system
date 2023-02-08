@@ -550,6 +550,12 @@ input[type=submit] {
   margin-top: 5%;
   margin-left: 4%;
 }
+.typofont-container
+{
+  display: grid;
+  grid-template-columns: 25%;  
+  align-items: center;  
+}
 
 }
 
@@ -610,7 +616,12 @@ input[type=submit] {
   margin-left: 4%;
 }
 
-
+.typofont-container
+{
+  display: grid;
+  grid-template-columns: 25% 25%;   
+  align-items: center;  
+}
 
 }
 
@@ -651,6 +662,12 @@ input[type=submit] {
   margin-top: 5%;
   margin-left: 4%;
 }
+.typofont-container
+{
+  display: grid;
+  grid-template-columns: 25% 25%;   
+  align-items: center;  
+}
 
 }
 
@@ -689,6 +706,12 @@ input[type=submit] {
   height: 3%;
   margin-top: 5%;
   margin-left: 4%;
+}
+.typofont-container
+{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;   
+  align-items: center;  
 }
 
 }
@@ -734,4 +757,11 @@ input[type=submit] {
 {
   margin-left: 7%;
 }
+.typofont-container
+{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;   
+  align-items: center;  
+}
+
 }
