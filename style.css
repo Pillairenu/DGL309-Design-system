@@ -412,4 +412,8 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
+.number-code-grid
+{
+  display:grid;
+  grid-template-columns: auto;
+}
