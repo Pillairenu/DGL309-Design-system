@@ -470,3 +470,8 @@ input[type=submit] {
   gap: 2%;
   margin-top: -35%;
 }
+.logo-code-grid
+{
+  display:grid;
+  gap: 1%;
+}
