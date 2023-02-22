@@ -15,7 +15,8 @@ body {
   width: 90%;
   height: 3%;
   margin-top: 5%;
-  margin-left: 4%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header-flex-container
 {
@@ -35,27 +36,21 @@ body {
 .cb-heading1
 {    
     /* color:#202020; */
-    color: rgba(0,0,0,.58)!important;
-    font-size: 1.5rem;      
+    color: #6F4E37;
+    font-size: 1.8rem;      
     
 }
 .cb-index-content
 {
   margin-left: 20%;
+  padding:2%;
   
 }
 
-
-.cb-body-content
-{
-  margin-top: 2%;
-  padding-left: 3%;
-  padding-right: 3%;
-}
 .cb-index-nav-new
 {
   height: 100%;
-  width: 15%;
+  width: 18%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -65,19 +60,30 @@ body {
   padding-top: 20px;
 }
 .cb-index-nav-new a {
-  padding: 5% 1% 1% 1%;
+  padding: 5%;
   text-decoration: none;
-  color: #818181;
+  color: white;
   display: block;
+  text-align: left;
 }
 
 .cb-index-nav-new a:hover {
-  color: #f1f1f1;
+  color: #7a8f99;
+ 
 }
 .cb-index-nav-new ul {
   list-style-type: none;
 }
+hr.newline
+{
+  margin-left: 20%;  
 
+}
+
+footer{
+  margin-left: 20%;
+  color:black;
+}
 
 /*--------- Typography Page ----------*/
 
@@ -811,29 +817,8 @@ input[type=submit] {
     display: none;
    
   }
-  .cb-index-nav ul {
-  
-    display: block;
-  }
-  .cb-index-nav
-{
-  flex: 20%;
-  background-color: #202020;
-  
-}
-.cb-index-nav li a
-{
-  color: #fff;
-  text-decoration: none; 
- 
-}
-#cb-Search
-{
-  width: 90%;
-  height: 3%;
-  margin-top: 5%;
-  margin-left: 4%;
-}
+
+
 .navigation-li
 {
   margin-left: 7%;
