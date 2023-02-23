@@ -505,23 +505,24 @@ hr.newline-listgroup
   gap: 1%;
 }
 .hero-image {
-  background-image: url(images/images.jfif);
+  background-image: url(images/coffeluvimages.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 20em;
-  
+  position: relative;
+  height:70%;
   width:70%
   
 }
 
 .hero-text {
-
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-weight: bolder;
 }
 .video-code-grid
 {
