@@ -424,6 +424,13 @@ input[type=submit] {
   display:grid;
   grid-template-columns: auto;
 }
+/*-----List-----------*/
+hr.newline-listgroup
+{
+  margin-left: 20%; 
+  margin-top: 10%; 
+
+}
 /*-----Carousel-----------*/
 
 .slideshow-container {
