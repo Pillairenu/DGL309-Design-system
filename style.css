@@ -424,6 +424,21 @@ input[type=submit] {
   display:grid;
   grid-template-columns: auto;
 }
+input[type=date] {
+  
+  height: 35px;
+  margin: 0 auto;
+  width: 10%;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  background-color: #7a8f99;;
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+  padding: 0 3px;
+  color:white;
+}
+
 /*-----List-----------*/
 hr.newline-listgroup
 {
