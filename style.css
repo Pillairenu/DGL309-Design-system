@@ -310,6 +310,15 @@ font-weight: bold;
   grid-template-columns: 50% 50%;
   gap: 2%;
 }
+.menu-img
+{
+  width:20%;
+}
+.responsive
+{
+width: 100%;
+height: auto; 
+}  
 /*------Navigation-----------*/
 
 .topnav {
