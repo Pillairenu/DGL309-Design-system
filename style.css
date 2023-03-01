@@ -178,7 +178,7 @@ font-weight: bold;
 .color-1 {
   height: 100px;
   width: 100px;
-  background-color: #dc4348;
+  background-color: #7a8f99;;
   border: solid;
   border-color:rgb(203, 200, 200);
 }
@@ -186,7 +186,7 @@ font-weight: bold;
 {
   height: 100px;
   width: 100px;
-  background-color: #ffffff;
+  background-color:  #e3d2b0;;
   border: solid;
   border-color:rgb(203, 200, 200);
 }
@@ -194,7 +194,7 @@ font-weight: bold;
 {
   height: 100px;
   width: 100px;
-  background-color: #000000;
+  background-color:#6F4E37;
   border: solid;
   border-color:rgb(203, 200, 200);
 }
@@ -202,7 +202,7 @@ font-weight: bold;
 {
   height: 100px;
   width: 100px;
-  background-color:#7a8f99;
+  background-color:#1f2f35;
   border: solid;
   border-color:rgb(203, 200, 200);
 }
@@ -215,7 +215,7 @@ font-weight: bold;
 {
   height: 100px;
   width: 100px;
-  background-color:#e3d2b0;
+  background-color: #ddd;
   border: solid;
   border-color:rgb(203, 200, 200);
 }
@@ -223,7 +223,7 @@ font-weight: bold;
 {
   height: 100px;
   width: 100px;
-  background-color:#6F4E37;
+  background-color: #f2f2f2;
   border: solid;
   border-color:rgb(203, 200, 200);
 }
@@ -231,7 +231,7 @@ font-weight: bold;
 {
   height: 100px;
   width: 100px;
-  background-color:#FF3131;
+  background-color:#f1e9d8;
   border: solid;
   border-color:rgb(203, 200, 200);
 }
@@ -239,7 +239,7 @@ font-weight: bold;
 {
   height: 100px;
   width: 100px;
-  background-color:#d62b1f;
+  background-color:#dc4348;
   border: solid;
   border-color:rgb(203, 200, 200);
 }
@@ -267,7 +267,7 @@ font-weight: bold;
 }
 .text-grey
 {
-  color:grey;
+  color:#7a8f99;
   background-color: #eee;
   border: solid;
   border-color:rgb(203, 200, 200);
@@ -285,7 +285,7 @@ font-weight: bold;
 }
 .text-red
 {
-  color:#dc4348;
+  color:#6F4E37;
   background-color: #eee;
   border: solid;
   border-color:rgb(203, 200, 200);
