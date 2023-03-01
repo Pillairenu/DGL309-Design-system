@@ -422,16 +422,35 @@ input[type=text], select,input[type=email],textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  background-color: #f1e9d8;
+  color: #7a8f99 !important;
+}
+::placeholder {
+  color: #7a8f99 !important;
+}
+input[type=number] {
+  color: #7a8f99 !important;
+ 
+  margin-top: 3.5%;
+  border: none;
+  background-color:#ccc;
+  border: none;
+  margin-left: 1%;
+  padding: 1%;
+  
 }
 
 input[type=submit] {
-  background-color: rgb(240, 93, 91);
+  background-color: #dc4348;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
+input[type=submit]:hover {
+  background-color: #7a8f99;
+  }
 .number-code-grid
 {
   display:grid;
@@ -441,15 +460,16 @@ input[type=date] {
   
   height: 35px;
   margin: 0 auto;
-  width: 10%;
+  width: 20%;
   font-size: 1.4rem;
   text-transform: uppercase;
-  background-color: #7a8f99;;
+  background-color: #f1e9d8;
   outline: none;
   border: 0;
   border-radius: 3px;
   padding: 0 3px;
-  color:white;
+  color: #7a8f99 !important;
+  border: 1px solid #ccc;
 }
 
 /*-----List-----------*/
