@@ -328,15 +328,14 @@ height: auto;
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 .topnav a:hover {
-  background-color:#e3d2b0;
-  color: black;
+  color: #e3d2b0;
 }
 .nav-paragragraph
 {
