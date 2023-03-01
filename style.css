@@ -392,18 +392,18 @@ height: auto;
 }
 /*------Button Nav-----------*/
 .button-container button {
-  background-color:  rgb(240, 93, 91);
+  background-color:  #7a8f99;
   border: none;
-  border-radius: 20px;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size:1.6rem;
   
   }
   .button-container button:hover {
-  background-color: #6F4E37;
+    background-color: #e3d2b0;
+    color:#6F4E37;
   
   }
   .buttonnav-code-grid
