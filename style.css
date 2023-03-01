@@ -123,13 +123,14 @@ pre code {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
- 
+  width: 100%;
 }
 .code
 {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
+  width: 100%;
 }
 
 .roboto-text-h1
@@ -310,10 +311,18 @@ font-weight: bold;
   grid-template-columns: 50% 50%;
   gap: 2%;
 }
-.menu-img
-{
+
+.menu-img{
+
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
   width:20%;
-}
+  
+  }
+  .menu-img:hover {
+  box-shadow: 0 0 2px 1px #e3d2b0;
+  }
 .responsive
 {
 width: 100%;
