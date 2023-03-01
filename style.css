@@ -345,10 +345,11 @@ height: auto;
 .mobile-container {
   max-width: 480px;
   margin: auto;
-  background-color: #c1b5b5;
+  background-color: white;
   height: 300px;
   color: white;
-  border-radius: 10px;
+  
+  border:solid #7a8f99;
   
 }
 
@@ -364,6 +365,7 @@ height: auto;
 
 .hambeurgernav a {
   color: white;
+  background-color:#7a8f99;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -371,7 +373,7 @@ height: auto;
 }
 
 .hambeurgernav a.icon {
-  background: black;
+  color: white;
   display: block;
   position: absolute;
   right: 0;
@@ -379,8 +381,8 @@ height: auto;
 }
 
 .hambeurgernav a:hover {
-  background-color:#e3d2b0;
-  color: black;
+  background-color:#7a8f99;
+  color: white;
 }
 .ham-code-grid
 {
