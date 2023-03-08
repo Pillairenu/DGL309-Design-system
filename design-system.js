@@ -1,27 +1,17 @@
 "use strict"
 
 function Search() {
-  let input, filter, ul, li, a, i;
-  input = document.getElementById("cb-Search");
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("nav-menus");
-  li = ul.getElementsByTagName("li");
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
+  var input = document.getElementById("cb-Search").value;
+  var filter = input.toUpperCase();
+  var menu = document.getElementById("nav-menus");
+  var links = menu.getElementsByTagName("a");
+
+  for (var i = 0; i < links.length; i++) {
+    var linkText = links[i].textContent.toUpperCase();
+    if (linkText.indexOf(filter) > -1) {
+      links[i].style.display = "";
     } else {
-      li[i].style.display = "none";
-    }
-  }
-  ol=document.getElementById("nav-submenu");
-  oi=ol.getElementsByTagName("li");
-  for (i = 0; i < li.length; i++) {
-    a = oi[i].getElementsByTagName("a")[0];
-    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-      oi[i].style.display = "";
-    } else {
-      oi[i].style.display = "none";
+      links[i].style.display = "none";
     }
   }
 }
@@ -55,5 +45,15 @@ function showFunction() {
     x.style.display = "none";
   } else {
     x.style.display = "block";
+  }
+}
+
+
+function mynewFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "sidebar") {
+    x.className += " responsive";
+  } else {
+    x.className = "sidebar";
   }
 }

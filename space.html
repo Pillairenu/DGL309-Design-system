@@ -20,73 +20,58 @@
     </head>
     <body>
         <main>
-            <div class="header-flex-container">
-                <div class="cb-logo">
-                    <!-- <a href="index.html"><img src="images/Coffee Luvlogo.png" alt="Logo" class="cb-logo-img"></a> -->
-                </div>
-                <div class="cb-heading1">
-                    <h1> Coffee Luv Bug Design System</h1>
-                </div> 
-                
-            </div>
-            <nav class="cb-index-nav-new">
+            <div class="sidebar" id="myTopnav">
+                <a href="index.html"><img src="images/logo5.png" alt="Logo" class="cb-logo-img"></a>
                 <input type="text" id="cb-Search" onkeyup="Search()" placeholder="Search.." title="Type in a category">
-                <ul id="nav-menus">
-                    <li><b><a href="index.html" class="link-heading">Introduction</a></b></li>
-                    <li><b><a href="styleelementpage.html" class="link-heading">Style Elements </a></b></li>
-                    
-                        <li class="navigation-li"><a href="typography.html" >Typography </a></li>
-                        <li class="navigation-li"><a href="colors.html">Colours</a></li>
-                        <li class="navigation-li"><a href="space.html">Spacing</a></li>
-                        <li class="navigation-li"><a href="image.html">Images</a></li>
-                     
-                    <li><b><a href="navigation.html" class="link-heading">Navigation</a></b></li> 
-                  
-                        
-                        <li class="navigation-li"><a href="navmenus.html">Navbar Menus</a></li>
-                        <li class="navigation-li"><a href="hamburgermenu.html">Hamburger Menus</a></li>
-                        <li class="navigation-li"><a href="buttonnav.html">Button Navigations</a></li>
-                  
-                    <li><b><a href="form.html" class="link-heading">Form</a></b></li> 
-                    
-                        <li class="navigation-li"><a href="input.html">Text</a></li> 
-                        <li class="navigation-li"><a href="email.html">Email</a></li>
-                        <li class="navigation-li"><a href="dropdown.html">Dropdown</a></li>
-                        <li class="navigation-li"><a href="textarea.html">Textarea</a></li>
-                        <li class="navigation-li"><a href="number.html">Number</a></li>
-                        <li class="navigation-li"><a href="date.html">Date</a></li>
-                        <li class="navigation-li"><a href="checkbox.html">Checkbox</a></li>
-                        <li class="navigation-li"><a href="submit.html">Submit</a></li>
-                        
-                   
-                    <li><b><a href="listgroup.html" class="link-heading">List Group</a></b></li> 
-                    
-                        <li class="navigation-li"><a href="unorderedlist.html">Unordered Lists</a></li>
-                    
-                    <li><b><a href="component.html" class="link-heading">Components</a></b></li> 
-                    
-                        <li class="navigation-li"><a href="carousel.html">Carousel</a></li>
-                        <li class="navigation-li"><a href="logo.html">Logo</a></li>
-                        <li class="navigation-li"><a href="heroimage.html">Hero Image</a></li>
-                        <li class="navigation-li"><a href="video.html">Video</a></li>
-                        
-                   
-                </ul>
-                <a href="javascript:void(0);" class="icon" onclick="showFunction()">
+                <div id="nav-menus">
+                <a class="active-new" href="index.html">Introduction</a>
+                <a href="styleelementpage.html" class="active-new">Style Elements </a>
+                <a href="typography.html" >Typography </a>
+                <a href="colors.html">Colours</a>
+                <a href="space.html">Spacing</a>
+                <a href="image.html">Images</a>
+                <a href="navigation.html" class="active-new">Navigation</a>
+                <a href="navmenus.html">Navbar Menus</a>
+                <a href="hamburgermenu.html">Hamburger Menus</a>
+                <a href="buttonnav.html">Button Navigations</a>
+                <a href="form.html" class="active-new">Form</a>
+                <a href="input.html">Text</a>
+                <a href="email.html">Email</a>
+                <a href="dropdown.html">Dropdown</a>
+                <a href="textarea.html">Textarea</a>
+                <a href="number.html">Number</a>
+                <a href="date.html">Date</a>
+                <a href="checkbox.html">Checkbox</a>
+                <a href="submit.html">Submit</a>
+                <a href="listgroup.html" class="active-new">List Group</a>
+                <a href="unorderedlist.html">Unordered Lists</a>
+                <a href="component.html" class="active-new">Components</a>
+                <a href="carousel.html">Carousel</a>
+                <a href="logo.html">Logo</a>
+                <a href="heroimage.html">Hero Image</a>
+                <a href="video.html">Video</a>
+                </div> 
+
+
+                <a href="javascript:void(0);" class="icon" onclick="mynewFunction()">
                     <i class="fa fa-bars"></i>
-                </a>
-            </nav>
+                  </a>
+            </div>
             <div class="cb-index-content">
                 
-                    
+                <div class="cb-heading1">
+                    <h1> Coffee Luv Bug Design System</h1>
+                 
+               </div>     
                     <div class="cb-body-content"> 
                         <h2>Spacing</h2> 
                         <p>A series of standard values used to define margins, height of a lines, letter spacing and padding for containers, divs, images, etc.</p>
                         <p>Here is the css code,</p>
                        
-                            <div class="item-2">
-                                <pre>
-                                <code>
+                        <div class="code-wrapper">
+                        <pre>
+                        
+                        <code>
 
 
                         line-height: 1.2;
@@ -96,20 +81,12 @@
 
 
 
-                                </code>
-                                </pre>
-                                        </div>
 
 
-
-
-
-                        
-                        
-                        
-                        
-
-                            
+                        </code>
+                        </pre>
+                        </div>
+         
                         
                         
                     
@@ -122,8 +99,9 @@
                 
         
         </main>
-        <hr class="newline">
+        
         <footer>
+            <hr class="newline">
                 <p><small>@Copyright-Renu-DGL309-2023</small></p>
         </footer>
         <script src="design-system.js"></script>   
