@@ -441,6 +441,7 @@ height: auto;
 input[type=text], select,input[type=email],textarea {
   width: 100%;
   padding: 12px;
+  font-family: 'Merriweather', serif;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
@@ -452,20 +453,24 @@ input[type=text], select,input[type=email],textarea {
 }
 ::placeholder {
   color: #7a8f99 !important;
+  font-family: 'Merriweather', serif;
 }
 input[type=number] {
+  font-family: 'Merriweather', serif;
   color: #7a8f99 !important;
- 
+ border-radius: 4px;
   margin-top: 3.5%;
-  border: none;
-  background-color:#ccc;
-  border: none;
+  border: 1px solid #ccc;
+  background-color:#f1e9d8;
   margin-left: 1%;
   padding: 1%;
+  width: 5%;
+  
   
 }
 
 input[type=submit] {
+  font-family: 'Merriweather', serif;
   background-color: #dc4348;
   color: white;
   padding: 12px 20px;
@@ -617,7 +622,7 @@ hr.newline-listgroup
 
 .sidebar a:hover:not(.active) {
   
-  color: #6F4E37
+  color: #e3d2b0;
 }
 .cb-body-content a{
   color:#dc4348;
@@ -628,7 +633,7 @@ hr.newline-listgroup
 }
 .topnav a:hover {
   
-  color: #6F4E37
+  color: #e3d2b0;
 }
 .hambeurgernav a
 {
@@ -643,6 +648,14 @@ hr.newline-listgroup
 
   width: 100%;
   height: 100%;
+
+}
+
+
+.cb-section-menu-image img {
+  width: 35%; /* Set the maximum width of the image to 100% of its container */
+  height: auto; /* Allow the height of the image to adjust according to the width */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -711,6 +724,10 @@ hr.newline-listgroup
   footer {
     margin-left: 0%;
     color: #7a8f99;
+  }
+  input[type=date] {
+  
+    width: 35%;
   }
 
 }
@@ -793,7 +810,10 @@ hr.newline-listgroup
     margin-left: 0%;
     color: #7a8f99;
   }
- 
+  input[type=date] {
+  
+    width: 20%;
+  }
 }
 
 
@@ -830,7 +850,10 @@ hr.newline-listgroup
          
    margin-left: 0%;
 }
-
+input[type=date] {
+  
+  width: 20%;
+}
 /*-------new sidebar---------*/
 
 .sidebar {
@@ -879,5 +902,8 @@ footer {
   margin-left: 20%;
   color: #7a8f99;
 }
-
+input[type=date] {
+  
+  width: 20%;
+}
 }
