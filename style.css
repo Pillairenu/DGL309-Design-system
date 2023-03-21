@@ -341,6 +341,11 @@ height: auto;
 }  
 /*------Navigation-----------*/
 
+.cb-heading1 a
+{
+  color:#dc4348;
+
+}
 .topnav {
   background-color:#7a8f99;
   overflow: hidden;
