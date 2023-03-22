@@ -578,14 +578,14 @@ hr.newline-listgroup
   gap: 1%;
 }
 .hero-image {
-  background-image: url(images/coffeluvimages.jpg);
+  background-image: url(images/coffeluvimages.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 20em;
   position: relative;
-  height:70%;
-  width:70%
+  
+  width:50%
   
 }
 
