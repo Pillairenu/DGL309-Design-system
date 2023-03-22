@@ -594,7 +594,7 @@ hr.newline-listgroup
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color:#1f2f35;
   font-weight: bolder;
 }
 .video-code-grid
