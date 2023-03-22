@@ -7,7 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Design System - Coffe Luv Bug</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/x-icon" href="images/Coffee Luvlogo.png">
+        <link rel="icon" type="image/x-icon" href="images/logo5.png">
+
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
@@ -73,19 +74,19 @@
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
       
-      <img src="images/img1.png" style="width:100%">
+      <img src="images/img1.png" alt="img1" style="width:100%">
       
     </div>
   
     <div class="mySlides fade">
       
-      <img src="images/img2.png" style="width:100%">
+      <img src="images/img2.png" alt="img1" style="width:100%">
       
     </div>
   
     <div class="mySlides fade">
       
-      <img src="images/img3.png" style="width:100%">
+      <img src="images/img3.png" alt="img1" style="width:100%">
      
     </div>
   </div>
@@ -176,7 +177,7 @@
         function showSlides() {
         let i;
         let slides = document.getElementsByClassName("mySlides");
-        for (i = 0; i < slides.length; i++) {
+        for (i = 0; i &lt; slides.length; i++) {
         slides[i].style.display = "none";
         }
         slideIndex++;
