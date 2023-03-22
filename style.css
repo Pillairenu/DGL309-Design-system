@@ -503,7 +503,10 @@ input[type=date] {
   border: 1px solid #ccc;
   font-family: 'Open Sans', sans-serif;
 }
-
+input[type=checkbox]:checked {
+  accent-color:  #dc4348;
+  
+}
 /*-----List-----------*/
 hr.newline-listgroup
 {
