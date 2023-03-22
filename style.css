@@ -339,6 +339,11 @@ font-weight: bold;
 width: 100%;
 height: auto; 
 }  
+
+.thumbnail-img
+{
+  width:35%;
+}
 /*------Navigation-----------*/
 
 .cb-heading1 a
