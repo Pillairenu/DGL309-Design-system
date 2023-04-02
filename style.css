@@ -97,6 +97,16 @@ body {
 footer{
   margin-left: 20%;
   color:black;
+  
+}
+#nav-footer
+{
+  margin-top:5%;
+}
+
+#list-footer
+{
+  margin-top:5%;
 }
 
 /*--------- Typography Page ----------*/
@@ -429,6 +439,7 @@ height: auto;
   text-align: center;
   text-decoration: none;
   font-size:1.6rem;
+  border-radius: 4px;
   
   }
   .button-container button:hover {
@@ -442,6 +453,27 @@ height: auto;
   grid-template-columns: 60% 40%;
   gap: 2%;
 }
+
+.button-container1 button {
+  background-color:  #7a8f99;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size:1.6rem;
+  border-radius: 4px;
+  margin-top:3%;
+  
+  }
+  .button-container button:hover {
+    background-color: #e3d2b0;
+    color:#6F4E37;
+  
+  }
+
+
+
 /*-----Form-----------*/
 input[type=text], select,input[type=email],textarea {
   width: 100%;
@@ -909,7 +941,7 @@ hr.newline {
   width: 50%;
 }
 footer {
-  margin-left: 20%;
+  margin-left: 22%;
   color: #7a8f99;
 }
 input[type=date] {
