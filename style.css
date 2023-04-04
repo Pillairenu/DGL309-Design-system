@@ -149,9 +149,13 @@ footer{
   background-color: #eee;
   border: 1px solid #999;
 }
-pre{
+pre {
   white-space: pre-wrap;
   word-wrap: break-word;
+  line-height: 180%;
+  font-family: 'Merriweather', serif;
+  font-size: 1.4rem;
+ 
 }
 
 .roboto-text-h1
