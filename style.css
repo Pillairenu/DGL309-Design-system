@@ -482,7 +482,7 @@ height: auto;
 input[type=text], select,input[type=email],textarea {
   width: 100%;
   padding: 12px;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
@@ -494,10 +494,10 @@ input[type=text], select,input[type=email],textarea {
 }
 ::placeholder {
   color: #7a8f99 !important;
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
 }
 input[type=number] {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   color: #7a8f99 !important;
   border-radius: 4px;
   margin-top: 3.5%;
@@ -512,7 +512,7 @@ input[type=number] {
 }
 
 input[type=submit] {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   background-color: #dc4348;
   color: white;
   padding: 12px 20px;
@@ -542,7 +542,7 @@ input[type=date] {
   padding: 0 3px;
   color: #7a8f99 !important;
   border: 1px solid #ccc;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
 }
 input[type=checkbox]:checked {
   accent-color:  #dc4348;
@@ -656,7 +656,11 @@ hr.newline-listgroup
   padding: 16px;
   font-size: 1.8rem; 
   text-decoration: none;
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif;
+  font-weight: bold; */
+  font-weight:400;
+  
+  
   
 }
  
